@@ -167,3 +167,94 @@ nav ul li.btn.hide i:before {
 .overlay.show {
     display: block;
 }
+
+/* HEADER STYLES */
+#header {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 7%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 70px;
+}
+
+.header-text h1 span {
+    color: #f0a500;
+}
+
+.header-text p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.header-text .p-desc p {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.header-text p span {
+    border-bottom: 4px solid #f0a500;
+}
+
+.header-text .header-a-link a {
+    text-decoration: none;
+    color: white;
+    background: #f0a500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.header-text .header-a-link a:hover {
+    background: #fac55b;
+    box-shadow: 0 0 20px #fac55b;
+}
+
+.header-img {
+    margin-right: 0%;
+}
+
+.header-img {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.header-img img {
+    width: 105%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.header-img img.girl {
+    width: 50%;
+}
+
+.header-img:hover .shape {
+    bottom: 40px;
+}
+
+.header-img:hover .girl {
+    left: 45%;
+}
