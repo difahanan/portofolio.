@@ -254,11 +254,11 @@ nav ul li.btn.hide i:before {
     left: 45%;
 }
 
-/* ABOUT STYLE */
 #about {
     padding: 100px 0 0 0;
     color: #ababab;
     overflow: hidden;
+    background: linear-gradient(to top, #000000 0%, #ff3399 100%);
 }
 
 .about-col-1 {
@@ -276,7 +276,6 @@ nav ul li.btn.hide i:before {
 }
 
 .about-col-1 .bg-about-img {
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M3.25 10h13.5M10 3.25v13.5'  stroke-linecap='square' stroke-width='1' stroke='hsla(108, 7%, 39%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
     position: absolute;
     bottom: 0%;
     left: 10%;
@@ -362,37 +361,36 @@ nav ul li.btn.hide i:before {
     }
 } */
 
-.socmed {
+#sosmed {
     font-size: 29px;
     margin-top: 35px;
     z-index: 1;
     position: relative;
 }
 
-.socmed a {
-    display: inline-block;
-    background-color: #606c5d;
+#sosmed a i {
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.fa-linkedin-in, .fa-github {
+    background-color: gray;
     border-radius: 15%;
-    height: 40px;
     width: 40px;
     text-align: center;
     margin: 5px;
     transition: transform 0.5s;
 }
 
-.socmed a:hover {
-    background: black;
+.fa-linkedin-in:hover {
+    background-color: #0e76a8;
     transform: translateY(-5px);
 }
 
-.socmed a i:hover {
-    color: #fff4f4;
-}
-
-.socmed a i {
-    color: white;
-    line-height: 40px;
-    font-size: 20px;
+.fa-github:hover {
+    background-color: #000000;
+    transform: translateY(-5px);
 }
 
 .bg-btm img {
