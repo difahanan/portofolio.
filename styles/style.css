@@ -656,14 +656,28 @@ nav ul li.btn.hide i:before {
 
 .contact-bg::after {
     content: "";
-    background-color: #fff4f4;
+    background: linear-gradient(62deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;    
     width: 100%;
     z-index: -1;
     position: absolute;
     height: 100%;
-    top: 7px;
-    left: 7px;
+    /* top: 1px; */
+    /* left: 7px; */
     transition: 0.2s;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .contact-1 {
