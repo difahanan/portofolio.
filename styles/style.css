@@ -684,12 +684,9 @@ nav ul li.btn.hide i:before {
     flex-basis: 35%;
 }
 
-.contact-email {
-    margin: 20px 0 15px 0;
-}
-
-.contact-1 i {
-    margin-bottom: 10px;
+.fa-envelope, .fa-phone,
+.fa-location-dot  {
+    margin: 15px 0 15px 0;
 }
 
 .contact-2 {
@@ -1034,7 +1031,7 @@ form textarea {
 
 .certi a {
     text-decoration: none;
-    background: #fac55b;
+    background: #000000;
     color: white;
     padding: 15px 25px;
     border-radius: 5px;
