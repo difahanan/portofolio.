@@ -682,6 +682,16 @@ footer h1 {
     font-weight: 500;
 }
 
+#footer-linkedin {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-linkedin:hover {
+    color: blue;
+    font-style: italic;
+}
+
 @media all and (max-width: 900px) {
     nav {
         padding: 5px 30px;
