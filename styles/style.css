@@ -448,8 +448,9 @@ nav ul li.btn.hide i:before {
     display: block;
 }
 
-#skill {
+#skills {
     padding: 120px 120px;
+    background-color: #262626;
 }
 
 #hard-skill, #soft-skill {
